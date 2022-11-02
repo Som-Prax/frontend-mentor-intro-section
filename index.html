@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="images/logo.svg" alt="logo" class="icon-logo" width="84" height="27" />
+
+      <div class="nav-small">
+        <span class="nav-choose nav-choose-features"
+          >Features
+          <span class="struggle1"> </span>
+
+          <div class="features-menu hidden">
+            <ul>
+              <li><img src="images/icon-todo.svg" alt="to do" class="features-icon" />Todo List</li>
+              <li><img src="images/icon-calendar.svg" alt="calendar" class="features-icon" />Calendar</li>
+              <li><img src="images/icon-reminders.svg" alt="reminders" class="features-icon" />Reminders</li>
+              <li><img src="images/icon-planning.svg" alt="planning" class="features-icon" />Planning</li>
+            </ul>
+          </div>
+        </span>
+
+        <span class="nav-choose nav-choose-company"
+          >Company
+          <span class="struggle2"> </span>
+
+          <div class="company-menu hidden">
+            <ul>
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </span>
+        <span class="nav-choose">Careers</span>
+        <span class="nav-choose">About</span>
+      </div>
+
+      <div class="nav-flex-small bruh">
+        <span class="nav-choose">Login</span>
+        <span class="nav-choose nav-choose-register">Register</span>
+      </div>
+
+      <!-- JAVASCRIPT -->
+      <div class="menu-bar hidden">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+
+      <div class="menu-bar-close hidden">
+        <div class="line11"></div>
+        <div class="line33"></div>
+      </div>
+
+      <div class="menu-mobile hidden">
+        <div class="nav-flex-small">
+          <span class="nav-choose nav-chose-features"
+            >Features
+            <span class="struggle3"> </span>
+
+            <div class="feat-menu hidden">
+              <ul>
+                <li><img src="images/icon-todo.svg" alt="to do" class="features-icon" />Todo List</li>
+                <li><img src="images/icon-calendar.svg" alt="calendar" class="features-icon" />Calendar</li>
+                <li><img src="images/icon-reminders.svg" alt="reminders" class="features-icon" />Reminders</li>
+                <li><img src="images/icon-planning.svg" alt="planning" class="features-icon" />Planning</li>
+              </ul>
+            </div>
+          </span>
+
+          <span class="nav-choose nav-chose-company"
+            >Company
+            <span class="struggle4"> </span>
+
+            <div class="comp-menu hidden">
+              <ul>
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+          </span>
+          <span class="nav-choose">Careers</span>
+          <span class="nav-choose">About</span>
+
+          <span class="nav-choose nav-choose-login">Login</span>
+          <span class="nav-choose nav-choose-register">Register</span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flex-big">
+      <div class="content">
+        <h2 class="heading-secondary">Make remote work</h2>
+        <p class="para">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button class="btn">Learn more</button>
+        <div class="flex-small">
+          <img src="images/client-databiz.svg" alt="databiz logo" class="client-logo databiz" width="114" height="20" />
+          <img src="images/client-audiophile.svg" alt="audiophile logo" class="client-logo audio" width="73" height="36" />
+          <img src="images/client-meet.svg" alt="meet logo" class="client-logo meet" width="90" height="20" />
+          <img src="images/client-maker.svg" alt="maker logo" class="client-logo maker" width="83" height="24" />
+        </div>
+      </div>
+      <div class="hero"><img src="images/image-hero-desktop.png" alt="good looking hero image with geometry" class="img-hero" /></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
